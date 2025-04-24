@@ -10,18 +10,17 @@ background-color: #006CBB;
 display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh;
+height: 100rem;
 padding: 15px;
 }
 
 main.container {
 background-color: #0d0d0d;
-width: 100%; 
-max-width: 400px;
-padding: 20px; 
+width: 1000px; 
+max-width: 600px;
+padding: 6px; 
 border-radius: 10px;
 position: relative;
-margin: 0 auto;
 }
 
 section.card {
