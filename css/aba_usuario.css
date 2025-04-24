@@ -1,0 +1,79 @@
+/* Fundo da página em verde escuro */
+body {
+    margin: 0;
+    background-color: #006CBB;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Aba lateral branca com cantos arredondados */
+  main {
+    background-color: white;
+    width: 260px;
+    height: 100vh;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  /* Todas as imagens dentro do menu viram botões visuais (estilo dos botões) */
+  main img {
+    display: block;
+    width: 100%;
+    max-width: 180px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    cursor: pointer;
+    object-fit: contain;
+  }
+  
+  
+  /* Botão "SAIR" com seta lateral preta */
+  main a[href*="logar_usuario"] {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  main a[href*="logar_usuario"]::after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid black;
+  }
+  
+  /* Título do menu (caso tenha) */
+  main::before {
+    content: "MENU";
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  /* Botão DESLIGAR fixado embaixo */
+  main::after {
+    content: "⏻ DESLIGAR";
+    display: block;
+    margin-top: auto;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+  }
+  
