@@ -18,14 +18,14 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    justify-content: space-between;
+    
 }
 
 
 header {
     width: 100%;
     text-align: center;
-    margin-top: 1.75rem; 
+    margin-top: 3rem; 
 }
 
 header h1 {
@@ -45,10 +45,11 @@ header a img {
 
 
 main {
+    margin-top: 20rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem; 
+    gap: 6rem; 
 }
 
 
@@ -56,8 +57,8 @@ main a img {
     background-color: white; 
     border: 0.125rem solid black; 
     border-radius: 1.25rem; 
-    padding: 0.625rem; 
-    width: 25.5rem; 
+    padding: 1rem; 
+    width: 30.5rem; 
     height: auto;
     transition: transform 0.2s ease;
 }
@@ -82,13 +83,15 @@ main a:last-child img {
     background-color: white;
     border: 0.125rem solid black; 
     border-radius: 2rem; 
-    padding: 0.625rem 1.25rem; 
+    padding: 2rem 2.5rem; 
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 2rem;
     transition: background-color 0.2s ease;
 }
 
 .perfil-button:hover {
     background-color: white;
 }
+
+
