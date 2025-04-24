@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Informacoes</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <header>
-            <a href="../index.html">
-                <img src="../img/menu.png" alt="TELA INICIAL">
-            </a>
-            <a href="../html/aba_usuario.html">
-                <img src="../Img/usuario.png" alt="Usuário">
-            </a> 
-            <h1>
-                INFORMAÇÕES
-            </h1>
-        </header>
-        <main>
-            <img src="../img/linha3-vermelha.png" alt="Linha 3- Vermelha
-            Linha mais movimentada que o comum
-            Reforma na estação da Sé">
-            <img src="../img/mapa.png" alt="Mapa GPS">
-        </main>
-    </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informações</title>
+  <link rel="stylesheet" href="../info.css"/>
+</head>
+<body>
+    <div class="voltar">
+        <a href="../index.html" class="botão voltar">
+            <img src="../Img/Voltar 1.png" alt="Voltar">
+        </a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <h2>INFORMAÇÕES</h2>
+            <hr/>
+            <div class="info-text">
+                <p>- Linha Amarela<br>
+                • em obra: <span id="obra-info"></span>
+            <button class="info-button" onclick="mostrarInfo()">Info</button>
+                </p>
+            </div>
+        </div>
+    </div>
+
+  <script>
+    function mostrarInfo() {
+      document.getElementById('obra-info').textContent = "interdição parcial até junho de 2025.";
+    }
+  </script>
+</body>
 </html>
