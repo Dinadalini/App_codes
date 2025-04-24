@@ -35,6 +35,7 @@ body {
     object-fit: contain;
   }
   
+  
   /* Botão "SAIR" com seta lateral preta */
   main a[href*="logar_usuario"] {
     position: relative;
