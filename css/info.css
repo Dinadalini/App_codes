@@ -1,94 +1,101 @@
+html, body{
+    width: 100%;
+    height: 100%;
+
+}
+
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-font-family: Arial, sans-serif;
-background-color: #007582;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #007582;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-background-color: #0d0d0d;
-width: 90%;
-max-width: 400px;
-padding: 6px;
-border-radius: 10px;
-position: relative;
+    background-color: #0d0d0d;
+    width: 90%;
+    max-width: 25rem; 
+    padding: 0.375rem; 
+    border-radius: 0.625rem; 
+    position: relative;
 }
 
 .card {
-background-color: #dcdcdc;
-padding: 20px;
-border-radius: 10px;
+    background-color: #dcdcdc;
+    padding: 1.25rem; 
+    border-radius: 0.625rem; 
 }
 
 h2 {
-text-align: center;
-font-weight: bold;
-margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.625rem; 
 }
 
 hr {
-margin-bottom: 15px;
+    margin-bottom: 0.9375rem; 
 }
 
 .info-text p {
-font-size: 16px;
-line-height: 1.5;
+    font-size: 1rem; 
+    line-height: 1.5;
 }
 
 .info-button {
-padding: 4px 8px;
-margin-left: 8px;
-border: 1px solid #444;
-background-color: #eee;
-cursor: pointer;
-border-radius: 5px;
+    padding: 0.25rem 0.5rem; 
+    margin-left: 0.5rem; 
+    border: 1px solid #444;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 0.3125rem; 
 }
 
 .info-button:hover {
-background-color: #ccc;
+    background-color: #ccc;
 }
 
 .back-button {
-position: absolute;
-top: 10px;
-right: 10px;
-background: white;
-border: none;
-font-size: 18px;
-border-radius: 50%;
-width: 32px;
-height: 32px;
-cursor: pointer;
-}
-
-@media (max-width: 600px) {
-.container {
-    width: 95%;
-    padding: 10px;
-}
-
-.card {
-    padding: 15px;
-}
-
-.info-button {
-    font-size: 14px;
-}
-}
-.voltar{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 0.625rem; 
+    right: 0.625rem; 
+    background: white;
+    border: none;
+    font-size: 1.125rem; 
+    border-radius: 50%;
+    width: 2rem; 
+    height: 2rem; 
+    cursor: pointer;
+}
+
+@media (max-width: 37.5rem) { 
+    .container {
+        width: 95%;
+        padding: 0.625rem; 
+    }
+
+    .card {
+        padding: 0.9375rem; 
+    }
+
+    .info-button {
+        font-size: 0.875rem; 
+    }
+}
+
+.voltar {
+    position: absolute;
+    top: 0.625rem; 
+    right: 0.625rem; 
     border: none;
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 2rem; 
+    height: 2rem; 
 }
