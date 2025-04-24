@@ -54,7 +54,7 @@ main {
 
 
 main a img {
-    background-color: #d9d9d9; 
+    background-color: white; 
     border: 0.125rem solid black; 
     border-radius: 1.25rem; 
     padding: 1rem; 
@@ -80,7 +80,7 @@ main a:last-child img {
     position: fixed;
     bottom: 1.25rem; 
     right: 1.25rem;
-    background-color: #d9d9d9;
+    background-color: white;
     border: 0.125rem solid black; 
     border-radius: 2rem; 
     padding: 2rem 2.5rem; 
@@ -91,7 +91,7 @@ main a:last-child img {
 }
 
 .perfil-button:hover {
-    background-color: #c0c0c0;
+    background-color: white;
 }
 
 
