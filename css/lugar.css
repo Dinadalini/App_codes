@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #336B78;
+    color: black;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn-voltar {
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.trajeto {
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.trajeto-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.seta {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.filtro {
+    background-color: #d9d9d9;
+    width: 85%;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.filtro h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.opcao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 2px solid black;
+    padding: 15px 0;
+}
+
+.opcao:first-of-type {
+    border-top: none;
+}
+
+.numero {
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+}
+
+.numero span {
+    font-size: 16px;
+}
+
+.descricao {
+    flex-grow: 1;
+    padding-left: 10px;
+    white-space: pre-line;
+}
+
+.destaque {
+    font-size: 14px;
+    font-style: italic;
+    white-space: nowrap;
+}
