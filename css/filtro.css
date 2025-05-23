@@ -1,47 +1,62 @@
-html, body{
+html, body {
     width: 100%;
     height: 100%;
-
 }
+
 body {
     background-color: #006CBB;
     color: white;
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
 }
-  
+
 header {
     background-color: #006CBB;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 0.625rem;
+    border-radius: 0.625rem;
     text-align: center;
 }
-  
+
 header img {
-    width: 30px;
-    margin: 0 10px;
+    width: 1.875rem;
+    margin: 0 0.625rem;
     vertical-align: middle;
 }
-  
+
 header h1 {
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 0.625rem;
 }
-  
+
 main {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
-  
+
 h2 {
-    font-size: 18px;
-    margin: 15px 0 5px;
+    font-size: 1.125rem;
+    margin: 0.9375rem 0 0.3125rem;
 }
-  
+
 img {
     width: 100%;
-    max-width: 500px;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    max-width: 31.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.625rem;
 }
+.usuario {
+    position: absolute;
+    right: 0.75rem;
+    top: 0.75rem; 
+    width: 5rem;
+    height: auto; 
+}
+.menu {
+    position: absolute;
+    left: 1rem;
+    top: 0.75rem; 
+    width: 2rem;
+    height: auto;
+}
+
   
