@@ -2,53 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Filtros</title>
-    <link rel="stylesheet" href="../css/filtros.css">
+    <title>Rotas</title>
+    <link rel="stylesheet" href="../css/lugar.css">
     <link rel="stylesheet" href="../css/reset.css">
 </head>
 <body>
     <header>
-        <a href="../index.html">
-            <img src="../img/menu.png" alt="Menu">
-        </a>
-        <a href="../html/aba_usuario.html">
-            <img src="../img/usuario.png" class="usuario" alt="Usuário">
-        </a>
-        <h1>FILTROS</h1>
+        <a href="../html/lugar.html" class="btn-voltar">←</a>
     </header>
 
     <main>
-        <section class="opcao">
-            <img src="../img/buscador_locs.png" alt="Busca de locais">
-            <h2>Opção</h2>
-        </section>
-        
-        <section class="opcao">
-            <h2>Opção 1 - MENOS MOVIMENTADA</h2>
-            <img src="../img/opcao1.png" alt="Opção 1"> 
-            
-        </section>
+        <article class="trajeto">
+            <h2>Trajeto:</h2>
+            <p>• Insper</p>
+            <p>• Dona Maria</p>
+            <p>• Pinheiros</p>
+        </article>
 
-        <section class="opcao">
-            <h2>Opção 2 - MAIS RÁPIDA</h2>
-            <img src="../img/opcao2.png" alt="Opção 2"> 
-            
-        </section>
+        <article class="filtro">
+            <h2>
+                ＋ Filtro
+            </h2>
 
-        <section class="opcao">
-            <h2>Opção 3 - SEM TRANSPORTE PÚBLICO</h2>
-            <img src="../img/opcao3.png" alt="Opção 3"> 
-            
-        </section>
+            <article class="opcao">
+                <h3>opcao</h3>
+                <p class="numero">1<br>＋</p>
+                <p class="descricao">
+                    <strong>Uber</strong><br>↳ Metrô<br>↳ Destino
+                </p>
+                <p class="destaque">Mais rápida!</p>
+            </article>
 
-        <section class="opcao">
-            <h2>ROTA ATUAL</h2>
-            <img src="../img/opcao4.png" alt="Opção 4"> 
-            
-        </section>
+            <article class="opcao">
+                <h3>opcao</h3>
+                <p class="numero">2<br>＋</p>
+                <p class="descricao">
+                    <strong>Metrô</strong><br>↳ Linha 2<br>↳ Destino
+                </p>
+                <p class="destaque">Mais econômica!</p>
+            </article>
 
-        <img src="../img/rotal_mapa.png" alt="Mapa da rota"> 
+            <article class="opcao">
+                <h3>opcao</h3>
+                <p class="numero">3</p>
+                <p class="descricao">
+                    <strong>Uber</strong><br>↳ Trem<br>↳ Destino
+                </p>
+            </article>
+        </article>
     </main>
 </body>
 </html>

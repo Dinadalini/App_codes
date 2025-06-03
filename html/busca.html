@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/busca.css">
     <link rel="stylesheet" href="../css/reset.css">
     <style>
-        /* Garante que o mapa ocupe o mesmo espaço da imagem anterior */
         #map {
             width: 100%;
             height: 50vh;
@@ -22,30 +21,26 @@
         </a>
     </header>
 
-    <!-- 🔁 Substituição da imagem por um div interativo -->
     <div id="map"></div>
 
     <main>
         <p>Insper - Localização Atual</p>
-        <a href="#">
-            <img src="../img/atualizar.png" class="atualizar" alt="Atualizar localização">
-        </a>
+
         <p class="busca">
             <a href="lugar.html">
                 <img src="../img/lupa.png" class="lupa" alt="Ícone de busca">
                 Buscar
             </a>
         </p>
-        <p>Recentes</p>
+        <p>Recentes:</p>
         <ul>
-            <li><strong>●</strong> Pinheiros, Rua Pinheiro, 0</li>
+            <p>• Pinheiros, Rua Pinheiro, 0</p>
         </ul>
     </main>
 
-    <!-- 🔧 Script de inicialização do mapa -->
     <script>
         function initMap() {
-            const insper = { lat: -23.597, lng: -46.685 }; // Coordenadas do Insper
+            const insper = { lat: -23.597, lng: -46.685 }; 
             const map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 15,
                 center: insper,
@@ -57,7 +52,6 @@
         }
     </script>
 
-    <!-- 🔑 Substitua SUA_CHAVE_AQUI pela sua chave real -->
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFAs5TDrQC95V4cZ9qHi9kM913bTXsPW8&callback=initMap">
     </script>
