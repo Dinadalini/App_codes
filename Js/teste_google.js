@@ -12,5 +12,5 @@ function inicializarMapa() {
         map: mapa,
         title: "Insper"
     });
+    
 }
- 
