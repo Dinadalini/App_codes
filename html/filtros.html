@@ -1,10 +1,30 @@
+<!-- filtros.html -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Rotas</title>
+    <title>Filtros</title>
     <link rel="stylesheet" href="../css/lugar.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <style>
+        /* Estilo mínimo para posicionar o botão ao lado direito sem quebrar layout */
+        .opcao {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .btn-rota {
+            font-size: 0.8rem;
+            padding: 0.3rem 0.6rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -49,6 +69,9 @@
                     <strong>Uber</strong><br>↳ Destino
                     <p class="destaque">Mais rápida!</p>
                 </p>
+                <a href="busca.html?rota=dona_rosa">
+                    <button class="btn-rota">Buscar rota</button>
+                </a>
             </article>
         </article>
     </main>
