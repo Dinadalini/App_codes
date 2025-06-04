@@ -21,24 +21,13 @@
         <p>Insper - Localização Atual</p>
         <p>Faça a seguinte trajetoria:</p>
         <ul>
-            <p> Metro → linha 2 → Destino </p>
+        <li> Metro → linha 2 → Destino </li>
         </ul>
     </main>
 
-    <script>
-        function initMap() {
-            const insper = { lat: -23.597, lng: -46.685 }; 
-            const map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 15,
-                center: insper,
-            });
-            new google.maps.Marker({
-                position: insper,
-                map: map,
-            });
-        }
-    </script>
+    
 
+    <script src="../js/indexjava.js"></script>
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFAs5TDrQC95V4cZ9qHi9kM913bTXsPW8&callback=initMap">
     </script>

@@ -106,3 +106,19 @@ main {
     font-style: italic;
     white-space: nowrap;
 }
+.opcao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.btn-rota {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
