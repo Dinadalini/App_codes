@@ -23,18 +23,19 @@ header {
     border-radius: 50%;
     text-decoration: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     width: 2.5rem;
     height: 2.5rem;
     text-align: center;
-    line-height: 2.5rem;
+    line-height: 3rem;
+    margin-top: 3rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5625rem;
+    gap: 3.5625rem;
 }
 
 .trajeto {
@@ -60,11 +61,11 @@ main {
     background-color: #d9d9d9;
     width: 85%;
     border-radius: 1.875rem;
-    padding: 1.25rem;
+    padding: 3.25rem;
 }
 
 .filtro h2 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin-bottom: 1.25rem;
 }
 
@@ -74,6 +75,7 @@ main {
     align-items: flex-start;
     border-top: 0.125rem solid black;
     padding: 0.9375rem 0;
+    font-size: 1.5rem;
 }
 
 .opcao:first-of-type {
@@ -81,7 +83,7 @@ main {
 }
 
 .numero {
-    font-size: 1.125rem;
+    font-size: 1.75rem;
     font-weight: bold;
     width: 1.875rem;
     text-align: center;
@@ -95,10 +97,11 @@ main {
     flex-grow: 1;
     padding-left: 0.625rem;
     white-space: pre-line;
+    font-size: 1.5rem;
 }
 
 .destaque {
-    font-size: 0.875rem;
+    font-size: 1.875rem;
     font-style: italic;
     white-space: nowrap;
 }
