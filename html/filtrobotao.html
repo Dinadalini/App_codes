@@ -5,6 +5,25 @@
     <title>Rotas</title>
     <link rel="stylesheet" href="../css/lugar.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <style>
+        /* Estilo mínimo para posicionar o botão ao lado direito sem quebrar layout */
+        .opcao {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        .btn-rota {
+            font-size: 0.8rem;
+            padding: 0.3rem 0.6rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,8 +44,10 @@
             </h2>
             
             <article class="opcao">
-                <a href="../html/final.html" class="btn-voltar"><h3>opcao</h3></a>
-                <p class="numero"><br></p>
+                <a href="busca.html?rota=dona_rosa">
+                    <button class="btn-rota">opcao</button>
+                </a>
+                <p class="numero">1<br>+</p>
                 <p class="descricao">
                     <strong>Uber</strong><br>↳ Destino
                 </p>
